@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+body{
+	font-family: "Playfair Display";
+	font-style: normal;
+	font-size: 1.25rem;
+	color: #212922;
+}
+.page{
+	background-color: #AEF6C7;
+	text-align: center;
+}
+[class*="__container"]{
+	max-width: 1260px;
+	margin:0 auto;
+}
+.exersise__title{
+	font-weight: 700;
+	font-size: 2rem;
+	margin-bottom: 1em;
+}
+[class*="__subtitle"]{
+	text-decoration: underline;
+	margin-bottom: 1em;
+	color: #bc4749;
+}
+[class$="__item"]:not(:last-child){
+	margin-bottom: 0.8em;
+}
+[class$="__item"] span{
+	color: red;
+}
+article {
+	background: #fefae0;
+	border: 2px solid #283618;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px 2px #8ecae6;
+	padding: 20px 0;
+}
+.exersise{
+	display:flex;
+	flex-direction: column;
+	gap: 30px;
+}
